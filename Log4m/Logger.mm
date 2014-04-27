@@ -10,11 +10,6 @@
 #import <Log4m/LogLevel.h>
 
 #include <log4cplus/logger.h>
-// #include <log4cplus/appender.h>
-// #include <log4cplus/consoleappender.h>
-// #include <log4cplus/fileappender.h>
-// #include <log4cplus/socketappender.h>
-// #include <log4cplus/layout.h>
 #include <log4cplus/loggingmacros.h>
 
 @implementation Logger
@@ -63,62 +58,6 @@
     logger.forcedLog(level, m);
 }
 
-// - (void)addAppender:(Appender*)appender
-// {
-//     std::string cname = [self.name UTF8String];
-//     log4cplus::Logger logger = log4cplus::Logger::getInstance(cname);
-//     log4cplus::SharedAppenderPtr app;
-
-//     if ([appender isKindOfClass: [ConsoleAppender class]])
-//     {
-//         app = new log4cplus::ConsoleAppender();
-//     }
-//     else if ([appender isKindOfClass: [SocketAppender class]])
-//     {
-//         SocketAppender* sapp = (SocketAppender*)appender;
-//         std::string serverName = [sapp.server UTF8String];
-//         unsigned port = sapp.port;
-//         std::string host = "127.0.0.1";
-//         app = new log4cplus::SocketAppender(host, port, serverName);
-//     }
-//     else if ([appender isKindOfClass: [RollingFileAppender class]])
-//     {
-//         RollingFileAppender* rfapp = (RollingFileAppender*)appender;
-//         std::string fname = [rfapp.fileName UTF8String];
-//         app = new log4cplus::RollingFileAppender(fname, rfapp.maxFileSize,
-//                     rfapp.maxBackupIndex, (bool)rfapp.immediateFlush);
-//     }
-//     else if ([appender isKindOfClass: [FileAppender class]])
-//     {
-//         FileAppender* fapp = (FileAppender*)appender;
-//         std::string fname = [fapp.fileName UTF8String];
-//         app = new log4cplus::FileAppender(fname);
-//     }
-
-//     if (appender.name != nil)
-//     {
-//         std::string appName;
-//         appName = [appender.name UTF8String];
-//         app->setName(appName);
-//     }
-
-//     if ([appender.layout isKindOfClass: [SimpleLayout class]])
-//     {
-//         std::auto_ptr<log4cplus::Layout> layout(new log4cplus::SimpleLayout());
-//         app->setLayout(layout);
-//     }
-//     else if ([appender.layout isKindOfClass: [PatternLayout class]])
-//     {
-//         PatternLayout* lo = (PatternLayout*)appender.layout;
-//         std::string pat = [lo.pattern UTF8String];
-//         std::auto_ptr<log4cplus::Layout> layout(new log4cplus::PatternLayout(pat));
-//         app->setLayout(layout);
-//     }
-
-//     app->setThreshold(appender.threshold);
-//     logger.addAppender(app);
-// }
-
 - (void)setAdditivity:(BOOL)additivity
 {
     std::string name = [self.name UTF8String];
@@ -166,14 +105,6 @@
 
     logger.log(level, m);
 }
-
-// - (void)removeAppender:(NSString *)name
-// {
-//     std::string appName = [self.name UTF8String];
-//     std::string logName = [self.name UTF8String];
-//     log4cplus::Logger logger = log4cplus::Logger::getInstance(logName);
-//     logger.removeAppender(appName);
-// }
 
 + (id)newInstance:(id)ident
 {

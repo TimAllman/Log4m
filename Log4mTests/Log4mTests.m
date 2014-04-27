@@ -8,6 +8,8 @@
 
 #import <XCTest/XCTest.h>
 
+#import "SetupLogger.h"
+
 @interface Log4mTests : XCTestCase
 
 @end
@@ -29,6 +31,12 @@
 - (void)testExample
 {
     //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+- (void)testSetupLogger
+{
+    int success = SetupLogger("TestLogger", LOG4M_LEVEL_ALL);
+    XCTAssert(success == 0, @"SetupLogger: returned %d", success);
 }
 
 @end

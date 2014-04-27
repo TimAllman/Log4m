@@ -27,8 +27,6 @@
 
 - (void)forcedLog:(int)level Message:(NSString*)format, ...;
 
-//- (void)addAppender:(Appender*)appender;
-
 - (void)setAdditivity:(BOOL)additivity;
 
 - (BOOL)getAdditivity;
@@ -38,8 +36,6 @@
 - (Logger*)getParent;
 
 - (void)log:(int)level Message:(NSString*)format, ...;
-
-//- (void)removeAppender:(NSString*)name;
 
 + (id)newInstance:(id)ident;
 

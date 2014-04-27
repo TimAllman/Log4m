@@ -2,12 +2,15 @@
 //  Log4m.h
 //  Log4m
 //
-//  Created by Tim Allman on 2014-01-26.
-//  Copyright (c) 2014 Tim Allman. All rights reserved.
+//  Created by Tim Allman on 2013-07-12.
+//  Copyright (c) 2013 Tim Allman. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef Log4m_Log4m_h
+#define Log4m_Log4m_h
 
-@interface Log4m : NSObject
+#import <Log4m/Logger.h>
+#import <Log4m/LogLevel.h>
+#import <Log4m/LoggingMacros.h>
 
-@end
+#endif
