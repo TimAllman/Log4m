@@ -7,35 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22888AFC18958BAA00DCD2EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22888AFB18958BAA00DCD2EB /* Cocoa.framework */; };
-		22888B0618958BAA00DCD2EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22888B0418958BAA00DCD2EB /* InfoPlist.strings */; };
-		22888B2C18958D4600DCD2EB /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B2618958D4600DCD2EB /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22888B2D18958D4600DCD2EB /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B2718958D4600DCD2EB /* Logger.mm */; };
-		22888B2E18958D4600DCD2EB /* LoggingMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B2818958D4600DCD2EB /* LoggingMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22888B2F18958D4600DCD2EB /* LoggingMacros.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B2918958D4600DCD2EB /* LoggingMacros.mm */; };
-		22888B3018958D4600DCD2EB /* LogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B2A18958D4600DCD2EB /* LogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22888B3118958D4600DCD2EB /* LogLevel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B2B18958D4600DCD2EB /* LogLevel.mm */; };
-		22888B3218958E0B00DCD2EB /* Log4m.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B0818958BAA00DCD2EB /* Log4m.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22888B34189591D800DCD2EB /* liblog4cplusS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22888B33189591D800DCD2EB /* liblog4cplusS.a */; };
+		2213FE1119AF62F500B9EF4F /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B2618958D4600DCD2EB /* Logger.h */; };
+		2213FE1219AF62FE00B9EF4F /* Logger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B2718958D4600DCD2EB /* Logger.mm */; };
+		2213FE1319AF62FE00B9EF4F /* LoggingMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B2818958D4600DCD2EB /* LoggingMacros.h */; };
+		2213FE1419AF62FE00B9EF4F /* LoggingMacros.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B2918958D4600DCD2EB /* LoggingMacros.mm */; };
+		2213FE1519AF62FE00B9EF4F /* LogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B2A18958D4600DCD2EB /* LogLevel.h */; };
+		2213FE1619AF62FE00B9EF4F /* LogLevel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B2B18958D4600DCD2EB /* LogLevel.mm */; };
+		2213FE1719AF62FE00B9EF4F /* Log4m.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B0818958BAA00DCD2EB /* Log4m.h */; };
+		2213FE1819AF633400B9EF4F /* liblog4m.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2213FE0D19AF628F00B9EF4F /* liblog4m.a */; };
+		2266463819795A6A00103CD4 /* liblog4cplusS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220909841979405000E3599D /* liblog4cplusS.a */; };
 		22888B561896A2DE00DCD2EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22888B551896A2DE00DCD2EB /* XCTest.framework */; };
 		22888B5C1896A2DE00DCD2EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22888B5A1896A2DE00DCD2EB /* InfoPlist.strings */; };
-		22888B661896AF5F00DCD2EB /* Log4mTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22888B651896AF5F00DCD2EB /* Log4mTests.m */; };
+		22888B661896AF5F00DCD2EB /* Log4mTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B651896AF5F00DCD2EB /* Log4mTests.mm */; };
 		22888B691896B01C00DCD2EB /* SetupLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B681896B01C00DCD2EB /* SetupLogger.mm */; };
-		22888B6B1896B12200DCD2EB /* liblog4cplusS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22888B33189591D800DCD2EB /* liblog4cplusS.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		22888B601896A2DF00DCD2EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 22888AEF18958BAA00DCD2EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22888AF718958BAA00DCD2EB;
-			remoteInfo = Log4m;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		22888AF818958BAA00DCD2EB /* Log4m.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Log4m.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220909841979405000E3599D /* liblog4cplusS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblog4cplusS.a; path = ../../usr/local/lib/liblog4cplusS.a; sourceTree = "<group>"; };
+		2213FE0D19AF628F00B9EF4F /* liblog4m.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblog4m.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		22888AFB18958BAA00DCD2EB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		22888AFE18958BAA00DCD2EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22888AFF18958BAA00DCD2EB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -50,24 +39,21 @@
 		22888B2918958D4600DCD2EB /* LoggingMacros.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LoggingMacros.mm; sourceTree = "<group>"; };
 		22888B2A18958D4600DCD2EB /* LogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogLevel.h; sourceTree = "<group>"; };
 		22888B2B18958D4600DCD2EB /* LogLevel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LogLevel.mm; sourceTree = "<group>"; };
-		22888B33189591D800DCD2EB /* liblog4cplusS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblog4cplusS.a; path = /usr/local/lib/liblog4cplusS.a; sourceTree = "<absolute>"; };
 		22888B541896A2DE00DCD2EB /* Log4mTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Log4mTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22888B551896A2DE00DCD2EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		22888B591896A2DE00DCD2EB /* Log4mTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Log4mTests-Info.plist"; sourceTree = "<group>"; };
 		22888B5B1896A2DE00DCD2EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22888B5F1896A2DE00DCD2EB /* Log4mTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Log4mTests-Prefix.pch"; sourceTree = "<group>"; };
-		22888B651896AF5F00DCD2EB /* Log4mTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log4mTests.m; sourceTree = "<group>"; };
+		22888B651896AF5F00DCD2EB /* Log4mTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Log4mTests.mm; sourceTree = "<group>"; };
 		22888B671896B01C00DCD2EB /* SetupLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupLogger.h; sourceTree = "<group>"; };
 		22888B681896B01C00DCD2EB /* SetupLogger.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SetupLogger.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22888AF418958BAA00DCD2EB /* Frameworks */ = {
+		2213FE0A19AF628F00B9EF4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22888AFC18958BAA00DCD2EB /* Cocoa.framework in Frameworks */,
-				22888B34189591D800DCD2EB /* liblog4cplusS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2213FE1819AF633400B9EF4F /* liblog4m.a in Frameworks */,
 				22888B561896A2DE00DCD2EB /* XCTest.framework in Frameworks */,
-				22888B6B1896B12200DCD2EB /* liblog4cplusS.a in Frameworks */,
+				2266463819795A6A00103CD4 /* liblog4cplusS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +84,8 @@
 		22888AF918958BAA00DCD2EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22888AF818958BAA00DCD2EB /* Log4m.framework */,
 				22888B541896A2DE00DCD2EB /* Log4mTests.xctest */,
+				2213FE0D19AF628F00B9EF4F /* liblog4m.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +138,7 @@
 		22888B36189591E200DCD2EB /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				22888B33189591D800DCD2EB /* liblog4cplusS.a */,
+				220909841979405000E3599D /* liblog4cplusS.a */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -161,7 +148,7 @@
 			children = (
 				22888B671896B01C00DCD2EB /* SetupLogger.h */,
 				22888B681896B01C00DCD2EB /* SetupLogger.mm */,
-				22888B651896AF5F00DCD2EB /* Log4mTests.m */,
+				22888B651896AF5F00DCD2EB /* Log4mTests.mm */,
 				22888B581896A2DE00DCD2EB /* Supporting Files */,
 			);
 			path = Log4mTests;
@@ -180,37 +167,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22888AF518958BAA00DCD2EB /* Headers */ = {
+		2213FE0B19AF628F00B9EF4F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22888B3218958E0B00DCD2EB /* Log4m.h in Headers */,
-				22888B3018958D4600DCD2EB /* LogLevel.h in Headers */,
-				22888B2C18958D4600DCD2EB /* Logger.h in Headers */,
-				22888B2E18958D4600DCD2EB /* LoggingMacros.h in Headers */,
+				2213FE1719AF62FE00B9EF4F /* Log4m.h in Headers */,
+				2213FE1519AF62FE00B9EF4F /* LogLevel.h in Headers */,
+				2213FE1119AF62F500B9EF4F /* Logger.h in Headers */,
+				2213FE1319AF62FE00B9EF4F /* LoggingMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		22888AF718958BAA00DCD2EB /* Log4m */ = {
+		2213FE0C19AF628F00B9EF4F /* log4m */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22888B2018958BAA00DCD2EB /* Build configuration list for PBXNativeTarget "Log4m" */;
+			buildConfigurationList = 2213FE0E19AF628F00B9EF4F /* Build configuration list for PBXNativeTarget "log4m" */;
 			buildPhases = (
-				22888AF318958BAA00DCD2EB /* Sources */,
-				22888AF418958BAA00DCD2EB /* Frameworks */,
-				22888AF518958BAA00DCD2EB /* Headers */,
-				22888AF618958BAA00DCD2EB /* Resources */,
+				2213FE0919AF628F00B9EF4F /* Sources */,
+				2213FE0A19AF628F00B9EF4F /* Frameworks */,
+				2213FE0B19AF628F00B9EF4F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Log4m;
-			productName = Log4m;
-			productReference = 22888AF818958BAA00DCD2EB /* Log4m.framework */;
-			productType = "com.apple.product-type.framework";
+			name = log4m;
+			productName = log4m;
+			productReference = 2213FE0D19AF628F00B9EF4F /* liblog4m.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		22888B531896A2DE00DCD2EB /* Log4mTests */ = {
 			isa = PBXNativeTarget;
@@ -223,7 +209,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				22888B611896A2DF00DCD2EB /* PBXTargetDependency */,
 			);
 			name = Log4mTests;
 			productName = Log4mTests;
@@ -236,7 +221,7 @@
 		22888AEF18958BAA00DCD2EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Tim Allman";
 				TargetAttributes = {
 					22888B531896A2DE00DCD2EB = {
@@ -256,21 +241,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22888AF718958BAA00DCD2EB /* Log4m */,
 				22888B531896A2DE00DCD2EB /* Log4mTests */,
+				2213FE0C19AF628F00B9EF4F /* log4m */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22888AF618958BAA00DCD2EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22888B0618958BAA00DCD2EB /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		22888B521896A2DE00DCD2EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,13 +259,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22888AF318958BAA00DCD2EB /* Sources */ = {
+		2213FE0919AF628F00B9EF4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22888B2F18958D4600DCD2EB /* LoggingMacros.mm in Sources */,
-				22888B3118958D4600DCD2EB /* LogLevel.mm in Sources */,
-				22888B2D18958D4600DCD2EB /* Logger.mm in Sources */,
+				2213FE1419AF62FE00B9EF4F /* LoggingMacros.mm in Sources */,
+				2213FE1619AF62FE00B9EF4F /* LogLevel.mm in Sources */,
+				2213FE1219AF62FE00B9EF4F /* Logger.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22888B661896AF5F00DCD2EB /* Log4mTests.m in Sources */,
+				22888B661896AF5F00DCD2EB /* Log4mTests.mm in Sources */,
 				22888B691896B01C00DCD2EB /* SetupLogger.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		22888B611896A2DF00DCD2EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22888AF718958BAA00DCD2EB /* Log4m */;
-			targetProxy = 22888B601896A2DF00DCD2EB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		22888B0418958BAA00DCD2EB /* InfoPlist.strings */ = {
@@ -331,12 +300,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2213FE0F19AF628F00B9EF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2213FE1019AF628F00B9EF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		22888B1E18958BAA00DCD2EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -365,12 +368,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/include,
+					"~/usr/local/include",
 				);
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "~/usr/local/lib";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -380,7 +382,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -404,65 +406,23 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/include,
+					"~/usr/local/include",
 				);
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "~/usr/local/lib";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		22888B2118958BAA00DCD2EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Log4m/Log4m-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/include,
-				);
-				INFOPLIST_FILE = "Log4m/Log4m-Info.plist";
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		22888B2218958BAA00DCD2EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Log4m/Log4m-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/include,
-				);
-				INFOPLIST_FILE = "Log4m/Log4m-Info.plist";
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
 		22888B631896A2DF00DCD2EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Log4m.framework/Versions/A/Log4m";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -475,7 +435,13 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Log4mTests/Log4mTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tim/usr/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -483,9 +449,11 @@
 		22888B641896A2DF00DCD2EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Log4m.framework/Versions/A/Log4m";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -494,7 +462,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Log4mTests/Log4mTests-Prefix.pch";
 				INFOPLIST_FILE = "Log4mTests/Log4mTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tim/usr/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -502,6 +476,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2213FE0E19AF628F00B9EF4F /* Build configuration list for PBXNativeTarget "log4m" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2213FE0F19AF628F00B9EF4F /* Debug */,
+				2213FE1019AF628F00B9EF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		22888AF218958BAA00DCD2EB /* Build configuration list for PBXProject "Log4m" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -511,14 +493,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22888B2018958BAA00DCD2EB /* Build configuration list for PBXNativeTarget "Log4m" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22888B2118958BAA00DCD2EB /* Debug */,
-				22888B2218958BAA00DCD2EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		22888B621896A2DF00DCD2EB /* Build configuration list for PBXNativeTarget "Log4mTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -526,6 +500,7 @@
 				22888B641896A2DF00DCD2EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
