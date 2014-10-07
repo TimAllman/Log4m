@@ -17,8 +17,12 @@
 		22E811E619E43603005E94DF /* TestLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22E811E519E43603005E94DF /* TestLogger.mm */; };
 		22E811EC19E4364E005E94DF /* SetupLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B681896B01C00DCD2EB /* SetupLogger.mm */; };
 		22E811ED19E436EE005E94DF /* liblog4m.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2213FE0D19AF628F00B9EF4F /* liblog4m.a */; };
-		22E811EE19E436F6005E94DF /* liblog4cplusS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220909841979405000E3599D /* liblog4cplusS.a */; };
 		22E811F119E437CB005E94DF /* liblog4cplusS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220909841979405000E3599D /* liblog4cplusS.a */; };
+		22E811FA19E4404A005E94DF /* liblog4m.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2213FE0D19AF628F00B9EF4F /* liblog4m.a */; };
+		22E811FC19E4406C005E94DF /* Logger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22888B2618958D4600DCD2EB /* Logger.h */; };
+		22E811FD19E4406C005E94DF /* LoggingMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22888B2818958D4600DCD2EB /* LoggingMacros.h */; };
+		22E811FE19E4406C005E94DF /* LogLevel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22888B2A18958D4600DCD2EB /* LogLevel.h */; };
+		22E811FF19E4406C005E94DF /* Log4m.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22888B0818958BAA00DCD2EB /* Log4m.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		22E811E119E43602005E94DF /* CopyFiles */ = {
+		22E811F919E44032005E94DF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/local/lib;
+			dstSubfolderSpec = 16;
 			files = (
+				22E811FA19E4404A005E94DF /* liblog4m.a in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E811FB19E44050005E94DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = usr/local/include/Log4m;
+			dstSubfolderSpec = 16;
+			files = (
+				22E811FC19E4406C005E94DF /* Logger.h in CopyFiles */,
+				22E811FD19E4406C005E94DF /* LoggingMacros.h in CopyFiles */,
+				22E811FE19E4406C005E94DF /* LogLevel.h in CopyFiles */,
+				22E811FF19E4406C005E94DF /* Log4m.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -83,7 +101,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E811ED19E436EE005E94DF /* liblog4m.a in Frameworks */,
-				22E811EE19E436F6005E94DF /* liblog4cplusS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +224,8 @@
 				2213FE0919AF628F00B9EF4F /* Sources */,
 				2213FE0A19AF628F00B9EF4F /* Frameworks */,
 				2213FE0B19AF628F00B9EF4F /* Headers */,
+				22E811F919E44032005E94DF /* CopyFiles */,
+				22E811FB19E44050005E94DF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -223,7 +242,6 @@
 			buildPhases = (
 				22E811DF19E43602005E94DF /* Sources */,
 				22E811E019E43602005E94DF /* Frameworks */,
-				22E811E119E43602005E94DF /* CopyFiles */,
 			);
 			buildRules = (
 			);
