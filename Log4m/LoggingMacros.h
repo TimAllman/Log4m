@@ -18,7 +18,7 @@
     if ([logger isEnabledFor:logLevel])                                            \
     {                                                                              \
         NSString* msg = formatMsg(format, ##__VA_ARGS__);                          \
-        macro_forced_log(logger, logLevel, msg, __FILE__, __LINE__, __FUNCTION__); \
+        macro_force_log(logger, logLevel, msg, __FILE__, __LINE__, __FUNCTION__);  \
     }                                                                              \
 }
 
@@ -108,8 +108,8 @@ extern "C"
      * @param line The result of __LINE__.
      * @param function The result of __func__.
      */
-    void macro_forced_log(Logger* logger, int logLevel, NSString* message,
-                          const char* filename, int line, const char* function);
+    void macro_force_log(Logger* logger, int logLevel, NSString* message,
+                         const char* filename, int line, const char* function);
 
     /**
      * Do the vsprintf type formatting of the message.

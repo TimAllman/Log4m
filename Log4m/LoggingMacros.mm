@@ -12,14 +12,13 @@
 
 #include <log4cplus/loggingmacros.h>
 
-void macro_forced_log(Logger* logger, int level,
-                            NSString* message, const char* filename,
-                            int line, const char* function)
+void macro_force_log(Logger* logger, int level, NSString* message, const char* filename,
+                     int line, const char* function)
 {
     log4cplus::Logger cLogger = log4cplus::Logger::getInstance([logger.name UTF8String]);
     log4cplus::tstring msg = [message UTF8String];
 
-    log4cplus::detail::macro_forced_log (cLogger, level, msg, filename, line, function);
+    log4cplus::detail::macro_forced_log(cLogger, level, msg, filename, line, function);
 }
 
 NSString* formatMsg(NSString* format, ...)
