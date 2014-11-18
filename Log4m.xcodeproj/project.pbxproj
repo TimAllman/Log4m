@@ -14,11 +14,10 @@
 		2213FE1519AF62FE00B9EF4F /* LogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B2A18958D4600DCD2EB /* LogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2213FE1619AF62FE00B9EF4F /* LogLevel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B2B18958D4600DCD2EB /* LogLevel.mm */; };
 		2213FE1719AF62FE00B9EF4F /* Log4m.h in Headers */ = {isa = PBXBuildFile; fileRef = 22888B0818958BAA00DCD2EB /* Log4m.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A4C37919E5718300AC4036 /* liblog4cplusS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A4C37819E5718300AC4036 /* liblog4cplusS.a */; };
 		22E811E619E43603005E94DF /* TestLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22E811E519E43603005E94DF /* TestLogger.mm */; };
 		22E811EC19E4364E005E94DF /* SetupLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22888B681896B01C00DCD2EB /* SetupLogger.mm */; };
 		22E811ED19E436EE005E94DF /* liblog4m.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2213FE0D19AF628F00B9EF4F /* liblog4m.a */; };
-		22E811F119E437CB005E94DF /* liblog4cplusS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220909841979405000E3599D /* liblog4cplusS.a */; };
-		22E811FA19E4404A005E94DF /* liblog4m.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2213FE0D19AF628F00B9EF4F /* liblog4m.a */; };
 		22E811FC19E4406C005E94DF /* Logger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22888B2618958D4600DCD2EB /* Logger.h */; };
 		22E811FD19E4406C005E94DF /* LoggingMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22888B2818958D4600DCD2EB /* LoggingMacros.h */; };
 		22E811FE19E4406C005E94DF /* LogLevel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22888B2A18958D4600DCD2EB /* LogLevel.h */; };
@@ -42,7 +41,6 @@
 			dstPath = usr/local/lib;
 			dstSubfolderSpec = 16;
 			files = (
-				22E811FA19E4404A005E94DF /* liblog4m.a in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		220909841979405000E3599D /* liblog4cplusS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblog4cplusS.a; path = ../../usr/local/lib/liblog4cplusS.a; sourceTree = "<group>"; };
 		2213FE0D19AF628F00B9EF4F /* liblog4m.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblog4m.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		22888AFB18958BAA00DCD2EB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		22888AFE18958BAA00DCD2EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		22888AFF18958BAA00DCD2EB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		22888B0018958BAA00DCD2EB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		22888B0318958BAA00DCD2EB /* Log4m-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Log4m-Info.plist"; sourceTree = "<group>"; };
 		22888B0518958BAA00DCD2EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22888B0718958BAA00DCD2EB /* Log4m-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Log4m-Prefix.pch"; sourceTree = "<group>"; };
@@ -83,6 +77,7 @@
 		22888B5F1896A2DE00DCD2EB /* Log4mTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Log4mTests-Prefix.pch"; sourceTree = "<group>"; };
 		22888B671896B01C00DCD2EB /* SetupLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupLogger.h; sourceTree = "<group>"; };
 		22888B681896B01C00DCD2EB /* SetupLogger.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SetupLogger.mm; sourceTree = "<group>"; };
+		22A4C37819E5718300AC4036 /* liblog4cplusS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblog4cplusS.a; path = ../../usr/local/lib/liblog4cplusS.a; sourceTree = "<group>"; };
 		22E811E319E43602005E94DF /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E811E519E43603005E94DF /* TestLogger.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = TestLogger.mm; path = ../tests/TestLogger.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E811F119E437CB005E94DF /* liblog4cplusS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A4C37919E5718300AC4036 /* liblog4cplusS.a in Frameworks */,
 				22E811ED19E436EE005E94DF /* liblog4m.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,7 +108,6 @@
 				22888B0118958BAA00DCD2EB /* Log4m */,
 				22888B571896A2DE00DCD2EB /* Log4mTests */,
 				22888AFA18958BAA00DCD2EB /* Frameworks */,
-				22888AF918958BAA00DCD2EB /* Products */,
 				22888B36189591E200DCD2EB /* Libraries */,
 			);
 			sourceTree = "<group>";
@@ -122,28 +116,17 @@
 			isa = PBXGroup;
 			children = (
 				2213FE0D19AF628F00B9EF4F /* liblog4m.a */,
-				22E811E319E43602005E94DF /* tests */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		22888AFA18958BAA00DCD2EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22888AFB18958BAA00DCD2EB /* Cocoa.framework */,
-				22888AFD18958BAA00DCD2EB /* Other Frameworks */,
+				22888AFE18958BAA00DCD2EB /* Foundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		22888AFD18958BAA00DCD2EB /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				22888AFE18958BAA00DCD2EB /* Foundation.framework */,
-				22888AFF18958BAA00DCD2EB /* CoreData.framework */,
-				22888B0018958BAA00DCD2EB /* AppKit.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		22888B0118958BAA00DCD2EB /* Log4m */ = {
@@ -156,6 +139,7 @@
 				22888B2A18958D4600DCD2EB /* LogLevel.h */,
 				22888B2B18958D4600DCD2EB /* LogLevel.mm */,
 				22888B0818958BAA00DCD2EB /* Log4m.h */,
+				22888AF918958BAA00DCD2EB /* Products */,
 				22888B0218958BAA00DCD2EB /* Supporting Files */,
 			);
 			path = Log4m;
@@ -174,7 +158,7 @@
 		22888B36189591E200DCD2EB /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				220909841979405000E3599D /* liblog4cplusS.a */,
+				22A4C37819E5718300AC4036 /* liblog4cplusS.a */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -186,6 +170,7 @@
 				22888B681896B01C00DCD2EB /* SetupLogger.mm */,
 				22E811E519E43603005E94DF /* TestLogger.mm */,
 				22888B581896A2DE00DCD2EB /* Supporting Files */,
+				22A4C37A19E5731300AC4036 /* Products */,
 			);
 			path = Log4mTests;
 			sourceTree = "<group>";
@@ -198,6 +183,14 @@
 				22888B5F1896A2DE00DCD2EB /* Log4mTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22A4C37A19E5731300AC4036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E811E319E43602005E94DF /* tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,7 +463,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -496,7 +489,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -539,6 +532,7 @@
 				22E811E919E43603005E94DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
