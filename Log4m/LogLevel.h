@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-//typedef int Level;
-
 /**
- * Logging levels. Copied from Log4cplus.
+ * Logging levels. These values must be synchronised wuth those in log4cplus.
  */
 enum
 {
@@ -22,7 +20,8 @@ enum
     LOG4M_LEVEL_INFO = 20000,
     LOG4M_LEVEL_DEBUG = 10000,
     LOG4M_LEVEL_TRACE = 0,
-    LOG4M_LEVEL_ALL = LOG4M_LEVEL_TRACE
+    LOG4M_LEVEL_ALL = LOG4M_LEVEL_TRACE,
+    LOG4M_LEVEL_NOT_SET = -1,
 };
 
 @interface LogLevel : NSObject
