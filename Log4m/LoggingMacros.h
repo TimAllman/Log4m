@@ -13,6 +13,15 @@
 
 #import <Log4m/LogLevel.h>
 
+
+/**
+ The macro which is called by the others. This should never be called in code.
+
+ @param logger The logger to be used.
+ @param level the level to log.
+ @param format The message format string.
+ @param ... The variable arguments for the format.
+ */
 #define LOG4M_MACRO_BODY(logger, logLevel, format, ...)                            \
 {                                                                                  \
     if ([logger isEnabledFor:logLevel])                                            \

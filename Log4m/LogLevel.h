@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 /**
- * Logging levels. These values must be synchronised wuth those in log4cplus.
+ * Logging levels. These values must be synchronised with those in log4cplus.
  */
 enum
 {
@@ -26,8 +26,17 @@ enum
 
 @interface LogLevel : NSObject
 
+/**
+ * Turn the numeric level into a string.
+ * @param levelString
+ */
 + (int)fromString:(NSString*)levelString;
 
+/**
+ * Turn the numeric level into a string.
+ * @param level The numeric level.
+ * @return A human readable string.
+ */
 + (NSString*)toString:(int)level;
 
 @end

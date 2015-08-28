@@ -26,5 +26,26 @@ int main(int argc, const char * argv[])
     Logger* logger = [Logger newInstance:loggerName];
     LOG4M_INFO(logger, @"Log message");
 
+    NSString* levelString = [LogLevel toString:LOG4M_LEVEL_TRACE];
+    LOG4M_INFO(logger, @"Trace string = %@", levelString);
+
+    levelString = [LogLevel toString:LOG4M_LEVEL_DEBUG];
+    LOG4M_INFO(logger, @"Debug string = %@", levelString);
+
+    levelString = [LogLevel toString:LOG4M_LEVEL_INFO];
+    LOG4M_INFO(logger, @"Info string = %@", levelString);
+
+    levelString = [LogLevel toString:LOG4M_LEVEL_WARN];
+    LOG4M_INFO(logger, @"Warn string = %@", levelString);
+
+    levelString = [LogLevel toString:LOG4M_LEVEL_ERROR];
+    LOG4M_INFO(logger, @"Error string = %@", levelString);
+
+    levelString = [LogLevel toString:LOG4M_LEVEL_FATAL];
+    LOG4M_INFO(logger, @"Fatal string = %@", levelString);
+
+    levelString = [LogLevel toString:LOG4M_LEVEL_OFF];
+    LOG4M_INFO(logger, @"Off string = %@", levelString);
+
     return EXIT_SUCCESS;
 }
