@@ -32,7 +32,7 @@
  The macro which is called by the others. This should never be called in code.
 
  @param logger The logger to be used.
- @param level the level to log.
+ @param logLevel the level to log.
  @param format The message format string.
  @param ... The variable arguments for the format.
  */

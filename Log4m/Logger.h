@@ -43,7 +43,7 @@
 
 /**
  * Init the instance with the name of the logger.
- * @param The name of the logger.
+ * @param name The name of the logger.
  * @return Initialised instance.
  */
 - (Logger*)initWithName:(NSString*)name;

@@ -78,7 +78,6 @@
 		22888B671896B01C00DCD2EB /* SetupLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupLogger.h; sourceTree = "<group>"; };
 		22888B681896B01C00DCD2EB /* SetupLogger.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SetupLogger.mm; sourceTree = "<group>"; };
 		22CB4C2E1B90B84B001DAD92 /* Copyright */ = {isa = PBXFileReference; lastKnownFileType = text; name = Copyright; path = Log4mTests/Copyright; sourceTree = SOURCE_ROOT; };
-		22CB4C2F1B90B85E001DAD92 /* doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = doxyfile; path = Log4mTests/doxyfile; sourceTree = SOURCE_ROOT; };
 		22CF910E1B5D27110049ED66 /* liblog4cplusS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblog4cplusS.a; path = ../../usr/local/lib/liblog4cplusS.a; sourceTree = "<group>"; };
 		22E811E319E43602005E94DF /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E811E519E43603005E94DF /* TestLogger.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = TestLogger.mm; path = ../tests/TestLogger.mm; sourceTree = "<group>"; };
@@ -154,7 +153,6 @@
 				22888B0418958BAA00DCD2EB /* InfoPlist.strings */,
 				22888B0718958BAA00DCD2EB /* Log4m-Prefix.pch */,
 				22CB4C2E1B90B84B001DAD92 /* Copyright */,
-				22CB4C2F1B90B85E001DAD92 /* doxyfile */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
